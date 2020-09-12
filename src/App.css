@@ -1,0 +1,282 @@
+html,
+body {
+  background: #0b0c23;
+  padding: 0;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.App {
+  width: 1440px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-wrapper {
+  padding: 25px;
+  display: flex;
+  color: white;
+}
+
+.header-toolbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header-toolbar > div {
+  display: flex;
+  align-items: center;
+}
+
+.corex-logo {
+  margin-right: 25px;
+}
+
+.lang-logo {
+  margin-right: 15px;
+}
+
+footer {
+  width: 100%;
+}
+
+.social-media {
+  margin: 3rem auto 1rem;
+  display: flex;
+  width: fit-content;
+}
+
+.social-media-link {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.cart-icon {
+  width: 30px;
+  height: 30px;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.cart-count {
+  background-color: #0b0c23;
+  z-index: 2;
+  position: relative;
+  top: -7px;
+  right: 5px;
+  font-size: 14px;
+}
+
+.sort-panel {
+  min-width: 215px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-left: 88px; */
+  margin-right: 60px;
+}
+
+.sort-panel h2 {
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.sort-panel-button,
+.product-grid-header {
+  height: 33px;
+  color: #ffffff;
+  width: 100%;
+  text-align: left;
+  background-color: #232439;
+  border: none;
+  cursor: pointer;
+}
+
+main.main-wrapper h2 {
+  line-height: 48px;
+  margin-bottom: 12px;
+}
+
+.filters-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.main-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 88%;
+  margin: 0 auto;
+  height: auto;
+}
+
+.banner-panel {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* margin-right: 88px; */
+  margin-left: 60px;
+}
+
+.banner-panel h2 {
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.product-list h2 {
+  margin: 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.product-list {
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+}
+
+.product-grid {
+  width: 100%;
+  /* border-spacing: 0; */
+  text-align: center;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 0 13px;
+  margin-top: -13px;
+}
+
+thead {
+  border-spacing: 0;
+}
+
+th {
+  font-weight: 300;
+}
+
+/* .product-grid-body::before {
+  height: 14px;
+  display: table-row;
+  content: '';
+} */
+
+tbody tr {
+  height: 43px;
+  cursor: pointer;
+}
+
+tbody td {
+  font-size: 12px;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #232439;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #17182e;
+}
+
+tr,
+td,
+th {
+  text-align: center;
+}
+
+.mobile-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem 0 3rem;
+}
+
+.card-wrapper {
+  height: auto;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  background-color: #232439;
+  margin-bottom: 3rem;
+  padding: 25px;
+}
+
+.product-list-mobile {
+  width: 88%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.card-price {
+  font-size: 32px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-title div {
+  display: flex;
+}
+
+.card-title-icon {
+  margin-left: auto;
+}
+
+.card-image {
+  width: 60%;
+  margin: 1.5rem auto;
+}
+
+@media (max-width: 1439px) {
+  .banner-panel {
+    display: none;
+  }
+  .App {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-list-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .product-list,
+  .sort-panel,
+  .banner-panel,
+  .header-wrapper {
+    display: none;
+  }
+  .cart-count {
+    background-color: #0b0c23;
+    z-index: 2;
+    position: relative;
+    top: -3px;
+    right: 5px;
+    font-size: 14px;
+    color: white;
+    height: 20px;
+  }
+}

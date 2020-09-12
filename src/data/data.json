@@ -1,0 +1,14 @@
+[
+    {"starred": true, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 0},
+    {"starred": true, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 1},
+    {"starred": false, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 2},
+    {"starred": true, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 3},
+    {"starred": false, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 4},
+    {"starred": true, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 5},
+    {"starred": true, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 6},
+    {"starred": false, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 7},
+    {"starred": true, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 8},
+    {"starred": false, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 9},
+    {"starred": false, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 10},
+    {"starred": true, "change": "grows", "release": "Mar 2019", "manufacturer": "Bitmain", "model": "S9i", "hash": "10.5-14.5 th/s", "algorithm": "SHA-256", "efficiency":"8.00j/H/s", "profit": "122.88/day", "price": "$137.00 - 217.00", "id": 11}
+]
